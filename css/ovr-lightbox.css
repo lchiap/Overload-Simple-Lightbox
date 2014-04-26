@@ -26,6 +26,10 @@ p {
     padding: 0;
 }
 
+.bold {
+    font-weight: bold;
+}
+
 .container {
     margin: auto;
     max-width: 630px;
