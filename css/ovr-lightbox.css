@@ -26,6 +26,14 @@ p {
     padding: 0;
 }
 
+a {
+    -webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
 .bold {
     font-weight: bold;
 }
@@ -71,16 +79,36 @@ p {
     font-weight: 800;
 }
 
+.download {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    padding: 15px;
+    width: 100px;
+    margin: 30px auto;
+}
+
+.download:hover {
+    padding: 15px;
+    border-radius: 4px; 
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background: #046da4;
+    width: 100px;
+    margin: 30px auto;
+}
+
 .bg {
 	position:absolute;
 	top:0px;
 	left:0px;
 	width:100%;
 	height:100%;
-	background:#000;
-	opacity: 0.9;
+	background: rgba(0, 0, 0, 0.6);
 	z-index:50;
-	display:none;
 }
 
 .ovr-lightbox {
@@ -89,7 +117,6 @@ p {
 	height:400px;
 	background:#01a0f2;
 	z-index:51;
-	display:none;
     color: #fff;
 }
 
@@ -152,7 +179,11 @@ footer {
     padding: 10px;
     width: 362px;
     clear: both;
-    margin: 50px auto;
+    margin: auto;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
 
 footer a {

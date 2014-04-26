@@ -1,11 +1,16 @@
 $(document).ready(function(){
-
+    
+        $('.bg, .ovr-lightbox').hide();
 		/* Open Box */
+        function open(){
+            $('.bg, .ovr-lightbox').animate({'opacity':'1.00'}, 100, 'linear', function(){
+                $('.bg, .ovr-lightbox').fadeIn();
+            });
+        }
+        
 		$('.open').click(function(e){
 			e.preventDefault();
-			$('.bg, .ovr-lightbox').animate({'opacity':'.50'}, 300, 'linear');
-			$('.ovr-lightbox').animate({'opacity':'1.00'}, 300, 'linear');
-			$('.bg, .ovr-lightbox').css('display', 'block');
+            open();
 		});
 
 		/* Center Box */
@@ -24,16 +29,13 @@ $(document).ready(function(){
 		/* Close Box */
         function close_box(){
             $('.bg, .ovr-lightbox').animate({'opacity':'0'}, 300, 'linear', function(){
-			    $('.bg, .ovr-lightbox').css('display', 'none');
+			    $('.bg, .ovr-lightbox').hide();
 		    });
         }
     
-		$('.close').click(function(){
+		$('.close, .bg').click(function(){
 			close_box();
 		});
+    
 	 
-		$('.bg').click(function(){
-		  close_box();	
-		  
- 		});
 });
