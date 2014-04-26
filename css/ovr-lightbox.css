@@ -39,7 +39,7 @@
 .ovr-lightbox {
 	position:absolute;
 	width:40%;
-	height:300px;
+	height:400px;
 	background:#01a0f2;
 	z-index:51;
 	display:none;
@@ -47,7 +47,7 @@
 }
 
 .ovr-lightbox header{
-	height: 50px;
+	height: 80px;
     background: #046da4;
     padding: 10px;
 }
