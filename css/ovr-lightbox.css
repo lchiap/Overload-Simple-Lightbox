@@ -113,3 +113,38 @@ h1 {
     height: 20px;
 }
 
+/* FOOTER */
+footer {
+    height: 100px;
+    padding: 10px;
+    width: 362px;
+    clear: both;
+    margin: 50px auto;
+}
+
+footer a {
+    display: block;
+    float: left;
+    text-decoration: none;
+    color: white;
+    margin: 0px 10px;
+    line-height: 65px;
+    font-size: 0.95em;
+    color: #046da4;
+}
+
+footer img {
+    display: block;
+    float: left;
+    text-decoration: none;
+    color: white;
+    margin: 0px 5px 0px 0px;
+}
+
+footer a:hover {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+}
+
+
