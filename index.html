@@ -21,7 +21,6 @@
         <!-- This is the main grid stylesheet -->
         <link rel="stylesheet" type="text/css" href="css/ovr-lightbox.css">
         <link rel="stylesheet" type="text/css" href="css/normalize.css">
-        <link rel="stylesheet" type="text/css" href="css/main.css">
         <link href='http://fonts.googleapis.com/css?family=Raleway:400,800' rel='stylesheet' type='text/css'>
 
         <title>Overload Lightbox</title>
@@ -33,22 +32,27 @@
     </head>
 
     <body>
-        <!-- Click to Open Lightbox -->
-        <a class="open" href="#">Open Lightbox</a>
+        
+            <div class="container">
+                <!-- Click to Open Lightbox -->
+                <h1>Overload Simple Lightbox</h1>
+                <a class="open" href="#">Open Lightbox</a>
+            </div>
+            
+            <!-- BG Black -->
+            <div class="bg"></div>
 
-        <!-- BG Black -->
-        <div class="bg"></div>
+            <!-- Lightbox -->
+            <div class="ovr-lightbox">
+                <div class="close"><img src="img/close.png" alt=""></div>
+                <header>
+                    <h1>Header text</h1>
+                </header>
+                <section>
 
-        <!-- Lightbox -->
-        <div class="ovr-lightbox">
-            <div class="close"><img src="img/close.png" alt=""></div>
-            <header>
-                <h1>Header text</h1>
-            </header>
-            <section>
-                
-            </section>
-        </div>
+                </section>
+            </div>
+        
         
         <!-- jquery -->
         <script src="js/jquery.js"></script>
