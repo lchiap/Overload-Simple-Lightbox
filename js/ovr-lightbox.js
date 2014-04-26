@@ -1,6 +1,8 @@
 $(document).ready(function(){
     
+        /* Hide lightbox */
         $('.bg, .ovr-lightbox').hide();
+    
 		/* Open Box */
         function open(){
             $('.bg, .ovr-lightbox').animate({'opacity':'1.00'}, 100, 'linear', function(){
