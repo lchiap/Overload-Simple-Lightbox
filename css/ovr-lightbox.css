@@ -21,6 +21,11 @@ h1 {
     padding: 0;
 }
 
+p {
+    margin: 5px 0px;
+    padding: 0;
+}
+
 .container {
     margin: auto;
     max-width: 630px;
@@ -29,7 +34,7 @@ h1 {
     position: absolute;
     left: 0;
     right: 0;
-    top: 30%;
+    top: 25%;
 }
 
 .open {
@@ -93,6 +98,7 @@ h1 {
 .ovr-lightbox header h1{
     margin: 0;
     padding: 0;
+    line-height: 70px;
 }
 
 .ovr-lightbox section{
@@ -111,6 +117,29 @@ h1 {
 .close img{
     width: 20px;
     height: 20px;
+}
+
+/* DONATE */
+input.donate {
+    display: block;
+    margin: 30px auto;
+    width: 30%;
+    padding: 20px;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+
+input.donate:hover {
+    display: block;
+    margin: 50px auto;
+    width: 30%;
+    padding: 20px;
+    background: #046da4;
+    border: 1px solid white;
+    border-radius: 4px;
+    text-transform: uppercase;
 }
 
 /* FOOTER */
