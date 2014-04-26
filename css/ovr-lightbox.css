@@ -38,18 +38,40 @@
 
 .ovr-lightbox {
 	position:absolute;
-	top:20%;
-	left:30%;
-	width:375px;
+	width:40%;
 	height:300px;
-	background:#ffffff;
+	background:#01a0f2;
 	z-index:51;
-	padding:10px;
 	display:none;
-    color: #000;
+    color: #fff;
 }
+
+.ovr-lightbox header{
+	height: 50px;
+    background: #046da4;
+    padding: 10px;
+}
+
+.ovr-lightbox header h1{
+    margin: 0;
+    padding: 0;
+}
+
+.ovr-lightbox section{
+    padding: 10px;
+}
+
 .close {
-	float:right;
-	margin-right:6px;
-	cursor:pointer;
+	float: right;
+    margin-top: -24px;
+    margin-right: 8px;
+    cursor: pointer;
+    width: 10px;
+    height: 10px;
 }
+
+.close img{
+    width: 20px;
+    height: 20px;
+}
+
