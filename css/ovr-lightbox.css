@@ -80,6 +80,11 @@ a {
     font-weight: 800;
 }
 
+.btns {
+    width: 270px;
+    margin: auto;
+}
+
 .download {
     display: block;
     text-align: center;
@@ -87,7 +92,10 @@ a {
     color: #fff;
     padding: 15px;
     width: 100px;
-    margin: 30px auto;
+    margin: 30px 10px 0px 0px;
+    float: left;
+    border-radius: 4px;
+    background: #046da4;
 }
 
 .download:hover {
@@ -96,10 +104,36 @@ a {
     display: block;
     text-align: center;
     text-decoration: none;
+    color: #008fd9;
+    background: #fff;
+    width: 100px;
+    margin: 30px 10px 0px 0px;
+}
+
+.github {
+    display: block;
+    text-align: center;
+    text-decoration: none;
     color: #fff;
-    background: #046da4;
+    padding: 25px 15px;
     width: 100px;
     margin: 30px auto;
+    float: left;
+    border-radius: 4px; 
+    background: #046da4 url('../img/github.png') no-repeat center;
+}
+
+.github:hover {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    padding: 25px 15px;
+    width: 100px;
+    margin: 30px auto;
+    float: left;
+    border-radius: 4px; 
+    background: #fff url('../img/github.png') no-repeat center;
 }
 
 .bg {
