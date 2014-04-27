@@ -6,7 +6,7 @@ Hey friends, we share with you our super simple lightbox. We always need a simpl
 ## Installation
 
 -   Clone `git clone https://github.com/Luifi/Overload-Grid`
--   [Download the latest version](https://github.com/.zip)
+-   [Download the latest version](master/Overload-Simple-Lightbox.zip)
 
 
 
