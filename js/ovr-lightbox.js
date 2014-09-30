@@ -1,7 +1,7 @@
 /*
 *
 * Overload Lightbox v1.1
-* Copyright 2014, Luis Chiappe - Overload - Web & Graphic design -
+* Copyright 2014, Luis Chiappe - Overload - Interactive Agency -
 * Overloadesign.com | luischiappe.com.ar
 * Free to use for web designers and web developers.
 * Enjoy!
