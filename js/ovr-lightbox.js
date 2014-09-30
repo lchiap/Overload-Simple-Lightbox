@@ -10,22 +10,10 @@
 
 $(document).ready(function(){
     
-        /* Hide lightbox */
+        // Hide lightbox 
         $('.bg, .ovr-lightbox').hide();
     
-		/* Open Box */
-        function open(){
-            $('.bg, .ovr-lightbox').animate({'opacity':'1.00'}, 100, 'linear', function(){
-                $('.bg, .ovr-lightbox').fadeIn();
-            });
-        }
-        
-		$('.open').click(function(e){
-			e.preventDefault();
-            open();
-		});
-
-		/* Center Box */
+        // Center Box 
 		var widthW = $(window).width();
 		var heightW = $(window).height();
 		
@@ -37,17 +25,24 @@ $(document).ready(function(){
 
 		$('.ovr-lightbox').css('top', centerH);
 		$('.ovr-lightbox').css('left', centerW);
+    
+		// Open Box 
+        function open(){
+             $('.bg, .ovr-lightbox').fadeIn();
+        };
+        
+		$('.open').click(function(e){
+			e.preventDefault();
+            open();
+		});
 
-		/* Close Box */
+		// Close Box 
         function close_box(){
-            $('.bg, .ovr-lightbox').animate({'opacity':'0'}, 300, 'linear', function(){
-			    $('.bg, .ovr-lightbox').hide();
-		    });
-        }
+			  $('.bg, .ovr-lightbox').fadeOut();
+        };
     
 		$('.close, .bg').click(function(){
 			close_box();
 		});
     
-	 
 });
